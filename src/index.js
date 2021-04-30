@@ -1,3 +1,4 @@
+import ReactDOM from "react-dom";
 import Header from "./Components/Header"
 import Base from "./Components/Base"
 import Corpo from "./Components/Corpo"
@@ -14,4 +15,4 @@ export default function App(){
     );
 }
 
-ReactDOM.render(<App />, document.querySelector(".root"));
+ReactDOM.render(App(), document.querySelector(".root"));
